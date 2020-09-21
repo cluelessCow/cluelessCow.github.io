@@ -1,0 +1,120 @@
+/* HTML elements */
+html {
+    height: 100%;
+}
+
+body{
+    height:100%;
+    background-color: #a2d5f2;
+    font-family: 'Ubuntu', sans-serif;
+    color: #393b44;
+}
+p {
+    text-align: left;
+    margin: 5%;
+}
+
+a {
+    color: #fff;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #07689f;
+}
+
+hr {
+    background-color: none;
+    border-style: dotted none none none;
+    border-width: 6px;
+    height: 2px;    /* Border line's height is 2px */
+    /*width: 100px; */  /* Border line's length is 100px*/
+    width: 12%;     /* Border line's length is 30% of the width of the scren */
+    margin: 50px auto 50px auto;
+
+}
+/* classes */
+
+    /* the whole thing*/
+.row {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.columns{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding:0;
+}
+.hidden-bar{
+    background-color: #07689f;
+    height: 10%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-link {
+    text-align: center;
+    line-height: 2.5;
+}
+    /* left side*/
+.left-column {
+    background-color: #07689f;
+    position: fixed !important;
+    height: 100%;
+    width: 10%;
+}
+
+.icon {
+    color: #a2d5f2;
+    margin: auto;
+}
+
+.icon:hover {
+    color: #fff;
+}
+
+/* resume download button*/
+.resume {
+    color: #a2d5f2;
+    margin-bottom: 20px;
+}
+.resume:hover{
+    color: #fff;
+}
+.contact {
+    line-height: 1.5;
+    color: #fff;
+}
+
+.nav-item-left {
+    font-size: 1.25rem;
+}
+
+    /* right side*/
+.contents {
+    align-items: center;
+    margin-left: 2%;
+}
+
+    /* Bottom */
+.copy-right {
+    text-align: center;
+    background-color:  #07689f;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+}
+
+.hidden {
+    padding-top: 1%;
+}
