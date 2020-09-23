@@ -158,13 +158,12 @@ h4 {
 
     /* This is where the positions "software engineer, student and artist"*/
 .sub-row-zero {
-    margin-top: 5%;
+    margin-top: 2.5%;
     margin-left: 0;
 }
 
     /* self declared/defined titles or... whatever */
 .self-defined-title {
-    padding-top: 2%;
     padding-bottom: 2%;
 }
 
