@@ -124,7 +124,7 @@ h2 {
     padding-top: 1%;
 }
 
-.top-border-line {
+.dotted-line {
     background-color: none;
     border-style: dotted none none none;
     border-width: 6px;
