@@ -53,12 +53,14 @@ hr {
     text-align: center;
     padding:0;
 }
+
 .hidden-bar{
     background-color: #07689f;
     height: 10%;
-    position: relative;
+    position: relative; /* sticks to the bottom */
     bottom: 0;
     width: 100%;
+    margin: 0;
 }
 
 .nav-link {
@@ -102,7 +104,7 @@ hr {
     /* right side*/
 .contents {
     align-items: center;
-    margin-left: 2%;
+    margin-left: 0;
 }
 
     /* Bottom */
