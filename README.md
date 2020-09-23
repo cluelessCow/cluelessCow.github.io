@@ -1,2 +1,18 @@
-# cluelessCow.github.io
-My personal Website
+# sjkoo0319.github.io
+
+To execute(Please type in command line after pulling from repo):
+open index.html
+<above command will prompt a default browser to launch>
+
+Color source:
+
+https://colorhunt.co/palette/201676
+https://colorhunt.co/palette/196113
+
+Icon source:
+
+https://use.fontawesome.com/releases/v5.14.0/js/all.js
+
+Font source:
+
+https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap

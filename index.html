@@ -20,7 +20,6 @@
         <!-- font awesome allows cool existing icons-->
         <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
 
-
     </head>
 
     <body>
@@ -28,35 +27,32 @@
             <!-- parent of the left fixed column-->
             <div class = "columns d-none d-lg-block col-lg-2" >
                 <nav class = "left-column nav flex-column navbar-expand-md">
+                        <!-- LinkedIn-->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://www.linkedin.com/in/sjkoo0319/"><i class="icon fab fa-linkedin fa-4x"></i></a>
+                        </li>
+                        <!-- Github-->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://github.com/sjkoo0319"><i class="icon fab fa-github-square fa-4x"></i></a>
+                        </li>
+                        <!-- Mailto-->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="mailto:sjkoo0319@gmail.com"><i class="icon fas fa-mail-bulk fa-4x"></i></a>
+                        </li>
+                        <!-- Disabled -->
+                        <li class="nav-item-left">
+                            <!-- download button class-->
+                            <a href="files/resume.pdf" download="resume.pdf"> 
+                            <button class="btn resume"><i class="icon fa fa-download fa-4x"></i>Resume</button>
+                            </a>
+                        </li>
+                        <li class="nav-item-left">
+                            <a class="nav-link disabled" href="#">Art</a>
+                        </li>
+                        <li class="nav-item-left">
+                            <a class="nav-link disabled" href="#">Cooking</a>
+                        </li>
 
-                    <!-- left column top-->
-                    <br>
-                    <h4 class = "contact" >Contact<br>& links</h4>
-                    <!-- LinkedIn-->
-                    <li class="nav-item">
-                        <a class="nav-link active" href="https://www.linkedin.com/in/sjkoo0319/"><i class="icon fab fa-linkedin fa-4x"></i></a>
-                    </li>
-                    <!-- Github-->
-                    <li class="nav-item">
-                        <a class="nav-link active" href="https://github.com/sjkoo0319"><i class="icon fab fa-github-square fa-4x"></i></a>
-                    </li>
-                    <!-- Mailto-->
-                    <li class="nav-item">
-                        <a class="nav-link active" href="mailto:sjkoo0319@gmail.com"><i class="icon fas fa-mail-bulk fa-4x"></i></a>
-                    </li>
-                    <!-- Disabled -->
-                    <li class="nav-item-left">
-                        <!-- download button class-->
-                        <a href="files/resume.pdf" download="resume.pdf"> 
-                        <button class="btn resume"><i class="icon fa fa-download fa-4x"></i>Resume</button>
-                        </a>
-                    </li>
-                    <li class="nav-item-left">
-                        <a class="nav-link disabled" href="#">Art</a>
-                    </li>
-                    <li class="nav-item-left">
-                        <a class="nav-link disabled" href="#">Cooking</a>
-                    </li>
                 </nav>
             </div>
 
@@ -64,13 +60,30 @@
             <div class = "columns col-lg-9">
                 <div class = "contents">
 
-                    <!-- TITLE ROW!: basically sub row zero-->
+                    <!-- TITLE ROW!-->
                     <div class = "title row">
+                        <!-- This needs to be alingned right, takes up the whole space-->
                         <div class = "right-sub-column col-lg-12">
-                            <h1>Shawn Koo</h1>
-                            <hr>
+                            <h1><span id="first-name">Shawn</span> <span id="last-name"> Koo</span></h1>
                         </div>
                     </div>
+                    <!-- end of title row-->
+
+                    <!-- THIS IS THE BEGINNING OF SUB ROW ONE-->
+                    <div class = "sub-row-zero row">
+                        <div class = "self-defined-title col-lg-4">
+                            <h2>software-engineer</h2>
+                        </div>
+                        <div class = "self-defined-title col-lg-4">
+                            <h2>student</h2>
+                        </div>
+                        <div class = "self-defined-title col-lg-4">
+                            <h2>artist</h2>
+                        </div>
+                    
+                    <hr>
+                    </div>
+                    <!-- end of zero-th row -->
                     
                     <!-- THIS IS THE BEGINNING OF SUB ROW ONE-->
                     <div class = "sub-row-one row">
@@ -144,7 +157,7 @@
                     <div class = "hidden-bar d-lg-none">
 
                         <!-- This is the navbar-->
-                            <ul class="hidden nav justify-content-center">
+                        <ul class="hidden nav justify-content-center">
         
                             <!-- linkedin, github, gmail links-->
                             <li class="nav-item">
