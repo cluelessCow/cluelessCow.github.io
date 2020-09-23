@@ -8,7 +8,8 @@ Color source:
 
 https://colorhunt.co/palette/201676
 https://colorhunt.co/palette/196113
-
+https://ucpa.ucsd.edu/brand/marks/logo/#:~:text=The%20official%20colors%20of%20the,should%20be%20reversed%20to%20white.
+(Go UCSD Tritons!)
 Icon source:
 
 https://use.fontawesome.com/releases/v5.14.0/js/all.js

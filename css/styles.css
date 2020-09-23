@@ -8,7 +8,7 @@ body{
     background-color: #a2d5f2;
     font-family: 'Ubuntu', sans-serif;
     color: #393b44;
-    color: #1b262c;
+    /*color: #1b262c;*/
 }
 p {
     text-align: left;
@@ -36,6 +36,12 @@ h2 {
     font-weight: bold;
     margin-bottom: 2.5%;
     text-align: center;
+    margin-left: 0;
+}
+
+h4 {
+    font-weight: bold;
+    margin-left: 0;
 }
 
 /* classes */
@@ -142,12 +148,35 @@ h2 {
     height: 2px;    /* Border line's height is 2px */
     /*width: 100px; */  /* Border line's length is 100px*/
     width: 12%;     /* Border line's length is 30% of the width of the scren */
-    margin: 50px auto 50px auto;
+    margin: 80px auto 120px auto;
 }
 
 .copy-right-lg {
     text-align: center;
     color: grey;
+}
+
+    /* This is where the positions "software engineer, student and artist"*/
+.sub-row-zero {
+    margin-top: 5%;
+    margin-left: 0;
+}
+
+    /* self declared/defined titles or... whatever */
+.self-defined-title {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.sub-row-one{
+    margin-top: 10%;
+}
+
+.about-me {
+    text-align: left;
+    padding-left: 3.75%;
+    margin-left: 0;
+    color: #0f4c75;
 }
 
 /* INDIVIDUAL ID */
@@ -163,10 +192,10 @@ h2 {
 #email-top {
     font-weight: lighter;
     text-align: left;
-    padding-left: 3.5%;
+    padding-left: 3.75%;
     color: grey;
 }
 
 #above-roles {
-    width: 93.5%;
+    width: 92.5%;
 }
