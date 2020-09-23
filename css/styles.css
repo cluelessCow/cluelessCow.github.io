@@ -24,7 +24,7 @@ h1 {
     text-align: right;
     margin-top: 5%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 2.5%;
     margin-bottom: 0;
     color: #07689f;
     line-height: 2;
@@ -97,6 +97,7 @@ h4 {
     color: #fff;
 }
 
+
 /* resume download button*/
 .resume {
     color: #a2d5f2;
@@ -118,6 +119,7 @@ h4 {
 .contents {
     align-items: center;
     margin-left: 0;
+    
 }
 
     /* Bottom */
@@ -144,11 +146,12 @@ h4 {
 .dotted-line {
     background-color: none;
     border-style: dotted none none none;
-    border-width: 6px;
+    border-width: 20px;
     height: 2px;    /* Border line's height is 2px */
     /*width: 100px; */  /* Border line's length is 100px*/
-    width: 12%;     /* Border line's length is 30% of the width of the scren */
+    width: 20%;     /* Border line's length is 30% of the width of the scren */
     margin: 80px auto 120px auto;
+    /* Since we're using border as a design, in order to change color, border-color is what needs to be changed*/
 }
 
 .copy-right-lg {
@@ -167,6 +170,11 @@ h4 {
     padding-bottom: 2%;
 }
 
+    /* this is where my name lives*/
+.right-sub-column {
+    padding-right: 0;
+}
+
 .sub-row-one{
     margin-top: 10%;
 }
@@ -176,6 +184,11 @@ h4 {
     padding-left: 3.75%;
     margin-left: 0;
     color: #0f4c75;
+}
+
+.straight-border {
+    width: 92.5%;
+    border-width: 3px;
 }
 
 /* INDIVIDUAL ID */
@@ -193,8 +206,4 @@ h4 {
     text-align: left;
     padding-left: 3.75%;
     color: grey;
-}
-
-#above-roles {
-    width: 92.5%;
 }
