@@ -16,6 +16,7 @@ p {
     font-family: 'Oswald', sans-serif;
     text-align: left;
     margin: 5%;
+    margin-top: 2%;
     font-weight: 500;
     line-height: 2;
     font-size: 1.5rem;
@@ -151,7 +152,6 @@ h3 {
 .copy-right-bar {
     /* background-color:  #07689f; */
     background-color: #0f3460;
-    color: #fff;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0;
@@ -159,6 +159,7 @@ h3 {
 }
 .copy-right {
     text-align: center;
+    color: #a2d5f2;
 }
 
 .copy-right-lg {
@@ -176,7 +177,7 @@ h3 {
     height: 2px;    /* Border line's height is 2px */
     /*width: 100px; */  /* Border line's length is 100px*/
     width: 20%;     /* Border line's length is 30% of the width of the scren */
-    margin: 80px auto 120px auto;
+    margin: 60px auto 100px auto;
     /* Since we're using border as a design, in order to change color, border-color is what needs to be changed*/
 }
 
