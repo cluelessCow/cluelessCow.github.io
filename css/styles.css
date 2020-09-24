@@ -34,8 +34,14 @@ p {
 
 /* 3 types of colors used for above is from ucsd's color pallette! go Tritons!*/
 
+/*regular link setting for colors*/
 a {
-    color: #fff;
+    color: #0f3460;
+    text-decoration: none;
+}
+a:hover {
+    color: #006A96;
+    text-decoration: none;
 }
 
 h1 {
@@ -235,6 +241,36 @@ h3 {
     border-color: #0f3460;
     border-width: 5px;
     padding: 1%;
+}
+
+/* Work experience row/column */
+.work-row {
+    width: 50%;
+    padding-top: 1%;
+}
+
+.work-date-row {
+    width: 50%;
+    padding-top: 1%;
+}
+
+/* name of the workplace */
+.work-name {
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    color: #0f3460;
+    font-weight: 525;
+    padding-left: 2.5%;
+    font-size: 2rem;
+}
+/* date of the workplace */
+.work-date {
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    color: #0f3460;
+    font-weight: 525;
+    padding-right: 4.5%;
+    font-size: 2rem;
 }
 
 /* INDIVIDUAL ID */
