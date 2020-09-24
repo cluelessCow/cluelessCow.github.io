@@ -233,6 +233,11 @@ h3 {
     /* testing around */
 }
 
+.logo:hover {
+    color: #fff;
+}
+
+
 /* this is the border that gives button look*/
 .button-like-border {
     /*mess around*/
