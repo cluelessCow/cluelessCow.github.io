@@ -29,6 +29,7 @@ h1 {
     color: #07689f;
     line-height: 2;
     font-size: 4rem;
+
 }
 
 h2 {
@@ -39,12 +40,9 @@ h2 {
     margin-bottom: 2.5%;
     text-align: center;
     margin-left: 0;
+
 }
 
-.logo {
-    /* color: #07689f; */
-    color: #3282b8;
-}
 
 h4 {
     font-weight: bold;
@@ -198,6 +196,23 @@ h4 {
     border-width: 3px;
 }
 
+/* really an icon but named it logo, since icon is predefined :( */
+.logo {
+    /* color: #07689f; */
+    color: #3282b8;
+
+    /* testing around */
+}
+
+/* this is the border that gives button look*/
+.button-like-border {
+    /*mess around*/
+    border-style: solid;
+    border-color: #0f4c75;
+    border-width: 5px;
+    padding: 1%;
+}
+
 /* INDIVIDUAL ID */
 
 #first-name {
@@ -206,6 +221,7 @@ h4 {
 
 #last-name {
     color: #3282b8;
+
 }
 
 #email-top {
@@ -214,3 +230,5 @@ h4 {
     padding-left: 3.75%;
     color: grey;
 }
+
+/*test classes */ 
