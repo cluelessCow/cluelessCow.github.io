@@ -10,10 +10,28 @@ body{
     color: #393b44;
     /*color: #1b262c;*/
 }
+
+/* All content text related here... kind of*/
 p {
+    font-family: 'Oswald', sans-serif;
     text-align: left;
     margin: 5%;
+    font-weight: 500;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #182B49;
 }
+.ucsd-link {
+    color: #907C4B;
+    text-decoration: none; /* gets rid of underline */
+}
+
+.ucsd-link:hover {
+    color: #006A96;
+    text-decoration: none; /* gets rid of underline */
+}
+
+/* 3 types of colors used for above is from ucsd's color pallette! go Tritons!*/
 
 a {
     color: #fff;
@@ -44,7 +62,7 @@ h2 {
 }
 
 
-h4 {
+h3 {
     font-weight: bold;
     margin-left: 0;
 }
@@ -154,7 +172,7 @@ h4 {
 .dotted-line {
     background-color: none;
     border-style: dotted none none none;
-    border-width: 20px;
+    border-width: 12px;
     height: 2px;    /* Border line's height is 2px */
     /*width: 100px; */  /* Border line's length is 100px*/
     width: 20%;     /* Border line's length is 30% of the width of the scren */
@@ -187,7 +205,7 @@ h4 {
     margin-top: 10%;
 }
 
-.about-me {
+.about-me { /* this is the container, for actual content editing(text) jump to h3*/
     text-align: left;
     padding-left: 3.75%;
     margin-left: 0;
@@ -197,6 +215,7 @@ h4 {
 .straight-border {
     width: 92.5%;
     border-width: 3px;
+    margin-bottom: 0;
 }
 
 /* really an icon but named it logo, since icon is predefined :( */
