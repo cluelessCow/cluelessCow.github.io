@@ -302,6 +302,12 @@ h3 {
     margin-bottom: 0%;
 }
 
+/* technical skill section */
+.technical {
+    font-family: 'Ubuntu', sans-serif;
+    color: #0f4c75;
+}
+
 /* INDIVIDUAL ID */
 
 #first-name {
