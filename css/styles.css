@@ -308,6 +308,16 @@ h3 {
     color: #0f4c75;
 }
 
+/* person value */
+.value {
+    color: #907C4B;
+}
+
+/* icons at the bottom */
+.small-icons {
+    color: #907C4B;
+}
+
 /* INDIVIDUAL ID */
 
 #first-name {
