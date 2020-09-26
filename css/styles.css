@@ -316,6 +316,26 @@ h3 {
 /* icons at the bottom */
 .small-icons {
     color: #907C4B;
+    margin-top: 1.5%;
+    margin-right: 2%;
+    margin-left: 0;
+    padding: 0;
+}
+
+/* additional information */
+.info {
+    text-align: left;
+    margin-top: 2%;
+}
+.info-row {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #182B49;
+}
+.no-margin{
+    margin-bottom: 0;
 }
 
 /* INDIVIDUAL ID */
