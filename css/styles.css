@@ -250,13 +250,10 @@ h3 {
 
 /* Work experience row/column */
 .work-row {
-    width: 50%;
+    width: 100%;
     padding-top: 1%;
-}
-
-.work-date-row {
-    width: 50%;
-    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-bottom: 0;
 }
 
 /* name of the workplace */
@@ -265,17 +262,42 @@ h3 {
     font-family: 'Oswald', sans-serif;
     color: #0f3460;
     font-weight: 525;
-    padding-left: 2.5%;
+    padding-left: 2%;
     font-size: 2rem;
 }
+/* title of the workplace */
+.work-title {
+    text-align: left;
+    /* font-family: 'Oswald', sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #0f3460; */
+    color: #0f4c75;
+    font-weight: 525;
+    padding-left: 8%;
+    font-size: 1.25rem;
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 /* date of the workplace */
 .work-date {
     text-align: right;
-    font-family: 'Oswald', sans-serif;
-    color: #0f3460;
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #0f3460; */
+    color: #0f4c75;
     font-weight: 525;
-    padding-right: 4.5%;
-    font-size: 2rem;
+    padding-right: 8%;
+    font-size: 1.25rem;
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* row under work-experience */
+.work-experience-sub{
+    width: 50%;
+    margin-bottom: 0%;
 }
 
 /* INDIVIDUAL ID */
