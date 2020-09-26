@@ -337,6 +337,16 @@ h3 {
 .no-margin{
     margin-bottom: 0;
 }
+.tab {
+    margin: 0;
+    padding: 0;
+}
+
+/* get in touch section characters next to icons */
+.get-in-touch {
+    font-family: 'Ubuntu', sans-serif;
+    color: #393b44;
+}
 
 /* INDIVIDUAL ID */
 
