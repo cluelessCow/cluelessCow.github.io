@@ -1,0 +1,369 @@
+/* HTML elements */
+html {
+    height: 100%;
+}
+
+body{
+    height:100%;
+    background-color: #a2d5f2;
+    font-family: 'Ubuntu', sans-serif;
+    color: #393b44;
+    /*color: #1b262c;*/
+}
+
+/* All content text related here... kind of*/
+p {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    margin: 5%;
+    margin-top: 2%;
+    font-weight: 500;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #182B49;
+}
+.ucsd-link {
+    color: #907C4B;
+    text-decoration: none; /* gets rid of underline */
+}
+
+.ucsd-link:hover {
+    color: #006A96;
+    text-decoration: none; /* gets rid of underline */
+}
+
+/* 3 types of colors used for above is from ucsd's color pallette! go Tritons!*/
+
+/*regular link setting for colors*/
+a {
+    color: #0f3460;
+    text-decoration: none;
+}
+a:hover {
+    color: #006A96;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    margin-bottom: 0;
+    color: #07689f;
+    line-height: 2;
+    font-size: 4rem;
+
+}
+
+h2 {
+    /*color: #07689f;   This is medium*/ 
+    color: #0f4c75; /* This is the darkest */
+    /* color: #3282b8; This is the lighter*/
+    font-weight: bold;
+    margin-bottom: 2.5%;
+    text-align: center;
+    margin-left: 0;
+
+}
+
+
+h3 {
+    font-weight: bold;
+    margin-left: 0;
+}
+
+/* classes */
+
+    /* the whole thing*/
+.row {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.columns{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding:0;
+}
+
+.hidden-bar{
+    /* background-color: #07689f; */
+    background-color: #0f3460;
+    height: 10%;
+    position: relative; /* sticks to the bottom */
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.nav-link {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.art-link {
+    margin-bottom: 5%;
+}
+    /* left side*/
+.left-column {
+    /* background-color: #07689f; */
+    background-color: #0f3460;
+    position: fixed !important;
+    height: 100%;
+    width: 10%;
+    padding-top: 12.5%;
+    bottom: 0;
+}
+
+.icon {
+    color: #a2d5f2;
+    margin: auto;
+}
+
+.icon:hover {
+    color: #fff;
+}
+
+
+/* resume download button*/
+.resume {
+    color: #a2d5f2;
+    margin-bottom: 20px;
+}
+.resume:hover{
+    color: #fff;
+}
+.contact {
+    line-height: 1.5;
+    color: #fff;
+}
+
+.nav-item-left {
+    font-size: 1.25rem;
+}
+
+    /* right side*/
+.contents {
+    align-items: center;
+    margin-left: 0;
+    
+}
+
+    /* Bottom */
+.copy-right-bar {
+    /* background-color:  #07689f; */
+    background-color: #0f3460;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 10%;
+}
+.copy-right {
+    text-align: center;
+    color: #a2d5f2;
+}
+
+.copy-right-lg {
+    padding-bottom: 2.5%;
+}
+
+.hidden {
+    padding-top: 5%;
+}
+
+.dotted-line {
+    background-color: none;
+    border-style: dotted none none none;
+    border-width: 12px;
+    height: 2px;    /* Border line's height is 2px */
+    /*width: 100px; */  /* Border line's length is 100px*/
+    width: 20%;     /* Border line's length is 30% of the width of the scren */
+    margin: 60px auto 100px auto;
+    /* Since we're using border as a design, in order to change color, border-color is what needs to be changed*/
+}
+
+.copy-right-lg {
+    text-align: center;
+    color: #0f3460;
+}
+
+    /* This is where the positions "software engineer, student and artist"*/
+.sub-row-zero {
+    margin-top: 2.5%;
+    margin-left: 0;
+}
+
+    /* self declared/defined titles or... whatever */
+.self-defined-title {
+    padding-bottom: 2%;
+}
+
+    /* this is where my name lives*/
+.right-sub-column {
+    padding-right: 0;
+}
+
+.sub-row-rest{
+    margin-top: 10%;
+}
+
+.about-me { /* this is the container, for actual content editing(text) jump to h3*/
+    text-align: left;
+    padding-left: 3.75%;
+    margin-left: 0;
+    color: #0f4c75;
+    margin-bottom: 1%;
+}
+
+.straight-border {
+    width: 92.5%;
+    border-width: 3px;
+    margin-bottom: 0;
+}
+
+/* really an icon but named it logo, since icon is predefined :( */
+.logo {
+    /* color: #07689f; */
+    color: #3282b8;
+
+    /* testing around */
+}
+
+.logo:hover {
+    color: #fff;
+}
+
+
+/* this is the border that gives button look*/
+.button-like-border {
+    /*mess around*/
+    border-style: solid;
+    /* border-color: #0f4c75; */
+    border-color: #0f3460;
+    border-width: 5px;
+    padding: 1%;
+}
+
+/* Work experience row/column */
+.work-row {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-bottom: 0;
+}
+
+/* name of the workplace */
+.work-name {
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    color: #0f3460;
+    font-weight: 525;
+    padding-left: 2%;
+    font-size: 2rem;
+    margin-top: 1%
+}
+/* title of the workplace */
+.work-title {
+    text-align: left;
+    /* font-family: 'Oswald', sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #0f3460; */
+    color: #0f4c75;
+    font-weight: 525;
+    padding-left: 8%;
+    font-size: 1.25rem;
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* date of the workplace */
+.work-date {
+    text-align: right;
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #0f3460; */
+    color: #0f4c75;
+    font-weight: 525;
+    padding-right: 8%;
+    font-size: 1.25rem;
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* row under work-experience */
+.work-experience-sub{
+    width: 50%;
+    margin-bottom: 0%;
+}
+
+/* technical skill section */
+.technical {
+    font-family: 'Ubuntu', sans-serif;
+    color: #0f4c75;
+}
+
+/* person value */
+.value {
+    color: #907C4B;
+}
+
+/* icons at the bottom */
+.small-icons {
+    color: #907C4B;
+    margin-top: 1.5%;
+    margin-right: 2%;
+    margin-left: 0;
+    padding: 0;
+}
+
+/* additional information */
+.info {
+    text-align: left;
+    margin-top: 2%;
+}
+.info-row {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #182B49;
+}
+.no-margin{
+    margin-bottom: 0;
+}
+.tab {
+    margin: 0;
+    padding: 0;
+}
+
+/* get in touch section characters next to icons */
+.get-in-touch {
+    font-family: 'Ubuntu', sans-serif;
+    color: #393b44;
+}
+
+/* INDIVIDUAL ID */
+
+#first-name {
+    color: #0f4c75;
+}
+
+#last-name {
+    color: #3282b8;
+
+}
+
+#email-top {
+    font-weight: lighter;
+    text-align: left;
+    padding-left: 3.75%;
+    color: #0f3460;
+}
+
+/*test classes */ 
