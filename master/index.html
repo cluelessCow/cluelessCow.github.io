@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<html>
+    <!-- Header has links -->
+    <head>
+        <meta charset="utf-8">
+
+        <!-- title -->
+        <title>Shawn Koo</title>
+
+        <!-- Font with various Ubuntu from Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> <!-- added later, to use: font-family: 'Oswald', sans-serif;-->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet"> 
+
+        <!-- Bootstrap cdn link-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        
+        <!-- link for css -->
+        <link rel = "stylesheet" href = "css/styles.css">
+
+        <!-- font awesome allows cool existing icons-->
+        <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+
+    </head>
+
+    <body>
+        <div class = "row">
+            <!-- parent of the left fixed column-->
+            <div class = "columns d-none d-lg-block col-lg-2" >
+                <nav class = "left-column nav flex-column navbar-expand-md">
+                        <!-- LinkedIn-->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://www.linkedin.com/in/sjkoo0319/"><i class="icon fab fa-linkedin fa-4x"></i></a>
+                        </li>
+                        <!-- Github-->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://github.com/sjkoo0319"><i class="icon fab fa-github-square fa-4x"></i></a>
+                        </li>
+                        <!-- Mailto-->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="mailto:sjkoo0319@gmail.com"><i class="icon fas fa-envelope fa-4x"></i></a>
+                        </li>
+                        <!-- Disabled -->
+                        <li class="nav-item-left">
+                            <!-- download button class-->
+                            <a href="files/resume.pdf" download="resume.pdf"> 
+                            <button class="btn resume"><i class="icon fa fa-download fa-4x"></i></button>
+                            </a>
+                        </li>
+                        <li class="nav-item-left">
+                            <a class="art-link nav-link disabled" href="#">Art</a>
+                        </li>
+                        <li class="nav-item-left">
+                            <a class="nav-link disabled" href="#">Cooking</a>
+                        </li>
+
+                </nav>
+            </div>
+
+            <!-- Everything on the right side-->
+            <div class = "columns col-lg-9">
+                <div class = "contents">
+
+                    <!-- TITLE ROW!-->
+                    <div class = "title row col-md-12 col-sm-12">
+                        <!-- This needs to be alingned right, takes up the whole space-->
+                        <div class = "right-sub-column col-lg-12">
+                            <h1><span class = "button-like-border" ><a href="index.html"><span id="first-name">Shawn</span><span id="last-name"> Koo</span></a></span></h1>
+                        </div>
+
+                    </div>
+                    <!-- end of title row-->
+                    <div id = "email-top">
+                        <h6><i class="fas fa-envelope fa-1x"></i> sjkoo0319@gmail.com</h6>
+                    </div>
+                    <hr class="straight-border">
+
+                    <!-- THIS IS THE BEGINNING OF SUB ROW ONE for actual contents-->
+                    <div class = "sub-row-zero row">
+                        <div class = "self-defined-title col-lg-4">
+                            <!-- <br><br>??? this is bruteforced.... shame on me, but this works -->
+                            <h2>software-engineer<br><br><a href="https://www.linkedin.com/in/sjkoo0319/"><i class="fas fa-laptop-code fa-3x"></i></a></a></h2>
+
+                        </div>
+                        <div class = "self-defined-title col-lg-4">
+                            <h2>student<br><br><a href="https://ucsd.edu/"><i class="fas fa-user-graduate fa-3x"></i></a></h2>
+                        </div>
+                        <div class = "self-defined-title col-lg-4">
+                            <h2>artist<br><br><a href="index.html"><i class="fas fa-palette fa-3x"></i></a></h2>
+                        </div>
+                    </div>
+                    <!-- end of zero-th row -->
+                    
+                    <hr class = "dotted-line">
+
+                    <!-- THIS IS THE BEGINNING OF SUB ROW ONE-->
+                    <div class = "sub-row-rest row">
+
+                        <!-- about me-->
+                        <div class = "about-me col-lg-12">
+                            <h3><span class = "button-like-border" >about me</span></h3>
+                        </div>
+                        <hr class="straight-border">
+
+                        <!-- content under about me-->
+                        <div class = "right-sub-column col-lg-12">
+                            <p>
+                                Hi! I'm Shawn and I'm an undergraduate senior at the 
+                                <a class="ucsd-link" href = "https://ucsd.edu/">University of California San Diego</a>.
+                                I am scheduled to graduate in June of 2021, with a degree in Bachelor's of Science in <a class = "ucsd-link" href = "https://www.ucsd.edu/catalog/curric/MATH-ug.html">
+                                Mathematics-Computer Science</a>. I was a full-time software engineer intern at <a class = "ucsd-link" href = "https://www.navsea.navy.mil/Home/Warfare-Centers/NSWC-Corona/">NAVSEA Corona Division</a> in Fallbrook in the summer of 2019.
+                                Recently, I've accepted an offer for a full-time software engineer position with <a class = "ucsd-link" href = "https://walmart.com">Walmart</a> and I am heading to Seattle, Washington after graduation.
+                                Get to know me more by scrolling down or <a class = "ucsd-link" href = "files/resume.pdf" >click here for my resume/cv</a>.
+                            </p>
+                        </div>
+
+                        <hr class = "dotted-line">
+
+                        <!-- Work Experience Section !!!-->
+                        <div class = "about-me col-lg-12">
+                            <h3><span class = "button-like-border" >work experience</span></h3>
+                        </div>
+                        <hr class="straight-border">
+
+                        <!-- Work -->
+                        <div class = "right-sub-column row col-lg-12">
+                            <div class = "work-row col-lg-12 col-md-12 col-sm-12">
+                                <h4 class = "work-name "><a href="https://www.navsea.navy.mil/Home/Warfare-Centers/NSWC-Corona/">NAVSEA Corona Division</a></h4>
+                            </div>
+                            <div class = "work-experience-sub col-lg-6 col-md-6 col-sm-6">
+                                <h4 class = "work-title ">Software Engineer Intern</h4>
+                            </div>
+                            <div class = "work-experience-sub col-lg-6 col-md-6 col-sm-6">
+                                <h4 class = "work-date">Summer 2019</a></h4>
+                            </div>
+                            <div class = "work-experience-content row col-lg-12 col-md-12 col-sm-12">
+                                <p>
+                                    At <a class = "ucsd-link" href = "https://www.navsea.navy.mil/Home/Warfare-Centers/NSWC-Corona/">NAVSEA Corona Division's</a> detachment in Fallbrook,
+                                    I worked on developing a control system software for the United States Marine Corps' small arms testing environment. The software I developed not only allows the user to change the configuration for the testing environment remotely, but it also performs automatic calibration among the pieces of machinery within the testing environment, which eliminates manual tasks of the test environment operators when it comes to configuration. You can read more about it
+                                      by <a class = "ucsd-link" href = "files/resume.pdf" >clicking here</a>.
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr class = "dotted-line">
+
+                        <!-- Education(same format as work experience section, keeping the same template) -->
+                        <div class = "about-me col-lg-12">
+                            <h3><span class = "button-like-border" >education</span></h3>
+                        </div>
+                        <hr class="straight-border">
+
+                        <!-- Education (Same format, therefore, class is not changed) -->
+                        <div class = "right-sub-column row col-lg-12">
+                            <div class = "work-row col-lg-12 col-md-12 col-sm-12">
+                                <h4 class = "work-name "><a href="https://ucsd.edu/">University of California San Diego</a></h4>
+                            </div>
+                            <div class = "work-experience-sub col-lg-6 col-md-6 col-sm-6">
+                                <h4 class = "work-title ">B.S in Mathematics-Computer Science</h4>
+                            </div>
+                            <div class = "work-experience-sub col-lg-6 col-md-6 col-sm-6">
+                                <h4 class = "work-date">Class of 2021</a></h4>
+                            </div>
+                            <div class = "work-experience-content row col-lg-12 col-md-12 col-sm-12">
+                                <p>
+                                    As a <a class = "ucsd-link" href = "https://www.ucsd.edu/catalog/curric/MATH-ug.html">mathematics-computer science</a> major at <a class="ucsd-link" href = "https://ucsd.edu/">UCSD</a>,
+                                     I had the chance to take some of the most crucial courses at the highest level, offered by their <a class="ucsd-link" href = "https://math.ucsd.edu/">mathematics </a>and
+                                     <a class="ucsd-link" href = "https://cse.ucsd.edu/"> computer science</a> departments. Some of my favorite courses include discrete mathematics, where I learned to prove statements using mathematical logics,
+                                      algorithms, where I learned to approach problems like a computer scientist, and data structures, where I learned about the application of data structures in the industry.
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr class = "dotted-line">
+
+                        <!-- Technical Skills (same format as work experience section, keeping the same template) -->
+                        <div class = "about-me col-lg-12">
+                            <h3><span class = "button-like-border" >technical skills</span></h3>
+                        </div>
+                        <hr class="straight-border">
+
+                        <!-- Technical skill lists resuing some of the classes-->
+                        <div class = "right-sub-column row col-lg-12">
+                            <div class = "work-experience-content row col-lg-12 col-md-12 col-sm-12">
+                                <p>
+                                    <b class = "technical">Programming languages: </b>
+                                     Python, Java, C++, HTML, CSS, javaScript, Swift, Matlab, Haskell<br>
+                                    <b class = "technical">Frameworks and libraries: </b>
+                                     Bootstrap, node.js <br>
+                                    <b class = "technical">Additionally: </b>
+                                     Currently teaching myself full-stack web development that includes react.js, Restful API, Express, SQL and more
+                                </p>
+                            </div>
+                        </div>
+                        <hr class = "dotted-line">
+
+                        <!-- personal value (same format as work experience section, keeping the same template) -->
+                        <div class = "about-me col-lg-12">
+                            <h3><span class = "button-like-border" >personal values</span></h3>
+                        </div>
+                        <hr class="straight-border">
+
+                        <!-- Personal value -->
+                        <div class = "right-sub-column row col-lg-12">
+                            <div class = "work-experience-content row col-lg-12 col-md-12 col-sm-12">
+                                <p>
+
+                                    Values I firmly believe in are <span class="value">gratitude, work ethic, respect, discipline, perseverance,</span> and <span class="value">family</span>.
+                                    I was raised by my single mother, whom I love, respect, and admire.
+                                    Growing up, she emphasized how we should always be grateful for what we have since there are people who are worse off than we are, or for we are not worse off.
+                                    She is the most <span class="value">selfless, resilient,</span> and <span class="value">hardworking</span> person with <span class="value">integrity</span> I have seen in my life.
+                                    What she also taught me was <span class="value">love</span> and <span class="value">appreciation</span> for family.
+                                    Although our family didn't have much wealth, it helped me to realize all the <span class="value">sacrifices</span>  my mother had made and how much effort she gave, which I learned to appreciate dearly.
+                                    
+                                     <br><br>
+                                     Inspired by my mother's hard work, I was determined to emulate her. I've been working through school since I had graduated high school (with an exception of 2020 due to COVID-19) After gaining work experience outside of school and profession, what life taught me is that I am <span class="value">not entitled</span>, nothing will come to me if I do not put in the work hard and <span class ="value">adapt</span> to changes.
+                                     I have to constantly <span class="value">challenge</span> myself to learn new things, set the bar higher to be a better person each day.
+                                     I must be <span class = "value">productive, self-reliant, self-sufficient, accountable</span>, and must treat everyone with <span class="value">respect,</span> as to how I want to be treated.
+                                     I also believe that I must think and act <span class="value">rationally</span> rather than being impulsive and being lack of discipline, to succeed in life.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <hr class = "dotted-line">
+                        <!-- Additional information (same format as work experience section, keeping the same template) -->
+                        <div class = "about-me col-lg-12">
+                            <h3><span class = "button-like-border" >additional information</span></h3>
+                        </div>
+                        <hr class="straight-border">
+                        <!-- Additional informnation contents-->
+                        <div class = "right-sub-column row col-lg-12">
+                            <div class = "info row col-lg-12 col-md-12 col-sm-12">
+                                <div class = "info-row row col-lg-12 col-md-12 col-sm-12">
+                                    <i class="small-icons fas fa-flag-usa"></i> United States citizen
+                                </div>
+                                <div class = "info-row row col-lg-12 col-md-12 col-sm-12">
+                                    <i class="small-icons fas fa-fingerprint"></i> Interim confidential level security clearance with the U.S. Department of Defense (2019)
+                                </div>
+                                <div class = "info-row row col-lg-12 col-md-12 col-sm-12">
+                                    <i class="small-icons fas fa-globe"></i> Bilingual (Fluent in English and Korean)
+                                </div>
+                                <div class = "info-row row col-lg-12 col-md-12 col-sm-12">
+                                    <i class="small-icons fas fa-concierge-bell"></i> Work experience in retail, manufacturing, office, hospitality and delivery service
+                                </div>
+                                <div class = "info-row row col-lg-12 col-md-12 col-sm-12">
+                                    <i class="small-icons fas fa-utensils"></i> I am an amature cook, to check out photos of my cooking,
+                                    <pre class="info-row no-margin tab"><a class = "ucsd-link disabled" href = "#"> click here </a>(Coming soon)</pre>
+                                </div>
+                                <div class = "info-row row col-lg-12 col-md-12 col-sm-12">
+                                    <i class="small-icons fas fa-paint-brush"></i> I am an amature artist, to check out my graphite pencil drawings,
+                                    <pre class="info-row no-margin tab"><a class = "ucsd-link disabled" href = "#"> click here </a>(Coming soon)</pre>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class = "dotted-line">
+
+                        <!-- get in touch with me! -->
+                        <div class = "about-me col-lg-12">
+                            <h3><span class = "button-like-border" >get in touch!</span></h3>
+                        </div>
+                        <hr class="straight-border">
+                        <!-- Additional informnation contents-->
+                        <div class = "right-sub-column row col-lg-12">
+                            <div class = "info row col-lg-12 col-md-12 col-sm-12">
+                                <div class = "info-row row col-lg-12 col-md-12 col-sm-12">
+                                    <a href="https://www.linkedin.com/in/sjkoo0319/"> <i class="small-icons icon fab fa-linkedin fa-2x"> </i></a><pre class="get-in-touch info-row no-margin tab">   sjkoo0319</pre>
+                                </div>
+                                <div class = "info-row row col-lg-12 col-md-12 col-sm-12">
+                                    <a href="https://github.com/sjkoo0319/"> <i class="small-icons icon fab fa-github-square fa-2x"> </i></a><pre class="get-in-touch info-row no-margin tab">   sjkoo0319</pre>
+                                </div>
+                                <div class = "info-row row col-lg-12 col-md-12 col-sm-12">
+                                    <a href="mailto:sjkoo0319@gmail.com"> <i class="small-icons icon fas fa-envelope fa-2x"> </i></a><pre class="get-in-touch info-row no-margin tab">  sjkoo0319@gmail.com</pre>
+                                </div>
+                                <div class = "info-row row col-lg-12 col-md-12 col-sm-12">
+                                    <a href="files/resume.pdf"><i class="small-icons icon fas fa-file fa-2x"></i></a><pre class="get-in-touch info-row no-margin tab">    click icon to view resume/CV</pre>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <!-- THIS IS END OF SUB ROWs of right column-->
+                    <hr class = "dotted-line">
+
+                    <!-- copy right bar when display is large -->
+                    <div class ="copy-right-lg d-none d-lg-block">
+                        <p class ="copy-right-lg" >© 2020 Shawn Koo<br></p>
+                    </div>
+                    <!-- THIS IS END OF SUB ROW TWO-->
+
+                    <!-- this is the sub row 3 basically, but it's not a row.-->
+                    <!-- Shows fixed at the bottom when the screen is smaller than large-->
+                    <div class = "hidden-bar d-lg-none">
+
+                        <!-- This is the navbar-->
+                        <ul class="hidden nav justify-content-center">
+        
+                            <!-- linkedin, github, gmail links-->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="https://www.linkedin.com/in/sjkoo0319/"><i class="icon fab fa-linkedin fa-3x"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="https://github.com/sjkoo0319"><i class="icon fab fa-github-square fa-3x"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="mailto:sjkoo0319@gmail.com"><i class="icon fas fa-envelope fa-3x"></i></a>
+                            </li>
+                            <li class="nav-item-left">
+                                <!-- download button class-->
+                                <a href="files/resume.pdf" download="resume.pdf"> 
+                                <button class="btn resume-bottom"><i class="icon fa fa-download fa-3x"></i></button>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Art</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Cooking</a>
+                            </li>
+                        </ul>
+                        
+                        <!-- This is copyright -->
+            
+                        <div class ="copy-right-bar">
+                            <p class ="copy-right" >© 2020 Shawn Koo<br></p>
+                        </div>
+                    </div>
+                    <!-- END OF HIDDEN BAR AND COPY RIGHT-->
+                    <!-- test here-->
+                </div>  
+            </div>
+        </div>
+    </body>
+</html>
